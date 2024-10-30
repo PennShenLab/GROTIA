@@ -13,7 +13,7 @@ bioRxiv 2024.02.06.578032; doi: https://doi.org/10.1101/2024.02.06.578032
 Recent advancements in single-cell omics technologies have enabled comprehensive analyses of cellular processes. However, due to the lack of co-assay sequencing technologies, single-cell omics datasets often comprise unpaired observations with varying feature dimensions. In this study, we present Graph-Regularized Optimal Transport for Single-Cell Data Integration (GROT), a computational method that aligns different multi-omics datasets without requiring correspondence information. GROT achieves global alignment through optimal transport while preserving local structure via graph regularization. We demonstrate its effectiveness on four simulated datasets and two real-world datasets, achieving superior performance compared to current state-of-the-art unsupervised alignment methods.
 ### Data
 Simulation Datasets could be found at the [here](https://drive.google.com/drive/folders/1qc0U6GRJvn5BmjcYIarGQe1nlUSYmWqn?usp=drive_link).
-Real-world Datasets could be downloaded at github folder under Real-Word Datasets.
+Real-world Datasets could be downloaded at [here](https://drive.google.com/drive/folders/1DGE3PFmwwyKUYHn2xYdCWh-lwIwGODvB?usp=drive_link).
 
 
 ### Usage
