@@ -9,7 +9,7 @@ Recent advancements in single-cell omics technologies have enabled detailed char
 | Capability | What it gives you |
 |------------|------------------|
 | **Interpretable embeddings** | Learns a shared latent space for RNA **and** ATAC; every gene/peak receives an importance score so you know *why* cells align. |
-| **OT-based co-clustering** | Converts the optimal-transport plan into a cross-modal affinity matrix for robust cell clustering and trajectory analysis. |
+| **OT-based co-clustering** | Converts the optimal-transport plan into a cross-modal affinity matrix for robust cell clustering and trajectory analysis after integration. |
 
 ---
 
