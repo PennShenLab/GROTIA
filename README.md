@@ -22,10 +22,10 @@ Real-world Datasets could be downloaded at [here](https://drive.google.com/drive
 The implementation is based on Python. To check each dataset, simply run the notebook under GROT/Tutorial folder.
 
 
-### License
+### ✨ License
 The MIT license is issued for this project.
 
-### Contacts
+### ✨ Maintainers
 
 - [Zexuan Wang](mailto:zxwang@sas.upenn.edu) 
-- [Li Shen](mailto:li.shen@pennmedicine.upenn.edu) 
+- [Qipeng Zhan](mailto:qipengz@sas.upenn.edu) 
