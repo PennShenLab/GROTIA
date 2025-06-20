@@ -1,16 +1,29 @@
-# Graph-Regularized Optimal Transport for Single-Cell Data Integration
+# An Interpretable Graph-Regularized Optimal Transport Framework for Diagonal Single-Cell Integrative Analysis
 
-This repository holds the official source codes of the **GROT** package for the paper [Graph-Regularized Optimal Transport for Single-Cell Data Integration]()
+This repository holds the official source codes of the **GROTIA** package for the paper [An Interpretable Graph-Regularized Optimal Transport Framework for Diagonal Single-Cell Integrative Analysis]()
 
-### Abstract
-Recent advancements in single-cell omics technologies have enabled comprehensive analyses of cellular processes. However, due to the lack of co-assay sequencing technologies, single-cell omics datasets often comprise unpaired observations with varying feature dimensions. In this study, we present Graph-Regularized Optimal Transport for Single-Cell Data Integration (GROT), a computational method that aligns different multi-omics datasets without requiring correspondence information. GROT achieves global alignment through optimal transport while preserving local structure via graph regularization. We demonstrate its effectiveness on four simulated datasets and two real-world datasets, achieving superior performance compared to current state-of-the-art unsupervised alignment methods.
-### Data
+### ✨ Abstract
+Recent advancements in single-cell omics technologies have enabled detailed characterization of cellular processes. However, coassay sequencing technologies remain limited, resulting in un-paired single-cell omics datasets with differing feature dimensions. Here, we present GROTIA (Graph-Regularized Optimal Transport Framework for Diagonal Single-Cell Integrative Analysis), a computational method to align multi-omics datasets without requiring any prior correspondence information. GROTIA achieves global alignment through optimal transport while preserving local relationships via graph regularization. Additionally, our approach provides interpretability by deriving domain-specific feature importance from partial derivatives, highlighting key biological markers. We demonstrate GROTIA’s superior performance on four simulated and four real-world datasets, surpassing state-of-the-art unsupervised alignment methods and confirming the biological significance of the top features identified in each domain.
+
+## ✨ About
+| Capability | What it gives you |
+|------------|------------------|
+| **Interpretable embeddings** | Learns a shared latent space for RNA **and** ATAC; every gene/peak receives an importance score so you know *why* cells align. |
+| **OT-based co-clustering** | Converts the optimal-transport plan into a cross-modal affinity matrix for robust cell clustering and trajectory analysis. |
+
+---
+
+### ✨ Data
 Simulation Datasets could be found at the [here](https://drive.google.com/drive/folders/1qc0U6GRJvn5BmjcYIarGQe1nlUSYmWqn?usp=drive_link).
 Real-world Datasets could be downloaded at [here](https://drive.google.com/drive/folders/1DGE3PFmwwyKUYHn2xYdCWh-lwIwGODvB?usp=drive_link).
 
 
-### Usage
+### ✨ Usage
 The implementation is based on Python. To check each dataset, simply run the notebook under GROT/Tutorial folder.
+
+
+### License
+The MIT license is issued for this project.
 
 ### Contacts
 
