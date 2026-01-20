@@ -19,8 +19,13 @@ Real-world Datasets could be downloaded at [here](https://drive.google.com/drive
 
 
 ### ✨ Usage
-The implementation is based on Python. To check each dataset, simply run the notebook under GROT/Tutorial folder.
+The implementation is based on Python. To check each dataset, simply run the notebooe.
 
+GROTIA_Replicate.ipynb: End-to-end instructions to reproduce the integrative analysis pipeline and run each integration method.
+
+GROT_Co_Clustering_Guide.ipynb: Guide to the downstream co-clustering analysis workflow.
+
+GROT_Interpretable_Embedding_Guide.ipynb: Tutorial for generating and interpreting the interpretable embeddings.
 
 ### ✨ License
 The MIT license is issued for this project.
