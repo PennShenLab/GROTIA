@@ -1,0 +1,32 @@
+# === Core Packages ===
+numpy==1.26.4
+scipy==1.13.1
+pandas>=2.0.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+torch==2.5.0+cu121
+GeomLoss==0.2.6
+POT==0.9.4
+networkx==3.4.2
+jinja2==3.1.4
+fsspec==2024.6.1
+sympy==1.13.1
+MarkupSafe==3.0.2
+
+# === Machine Learning / Analysis ===
+scikit-learn>=1.5.0
+# (includes KernelPCA, KNeighborsClassifier, KernelCenterer)
+
+# === Visualization ===
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# === Utilities ===
+filelock>=3.16.1
+typing-extensions>=4.12.2
+random
+os
+sys
+importlib
+
+
